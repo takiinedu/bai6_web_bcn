@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-letter {
+    padding: 100px 50px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: #EFF1FF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.content {
+    width: 50%;
+}
+
+.content__sub-title {
+    background-color: #E8DFFC;
+    color: #B966E7;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 45px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.content__title {
+    color: #192335;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.content__description {
+    color: #6b7385;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form {
+    width: 45%;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.form__email {
+    flex: 1;
+    background: #ffffff;
+    padding: 0 10px;
+    outline: none;
+    border: 0;
+    font-size: 14px;
+    color: #6b7385;
+    height: 50px;
+}
+
+.form__submit {
+    background-color: #B966E7;
+    color: #ffffff;
+    border: 0;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form__submit:hover {
+    background-color: #a04ecd;
+}
+
+.form__submit i {
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
